@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'loop-studio-hero': "url('/src/pages/loop-studios-landing/assets/images/mobile/image-hero.jpg')",
+        'loop-studio-hero-desktop': "url('/src/pages/loop-studios-landing/assets/images/desktop/image-hero.jpg')",
       },
     },
   },

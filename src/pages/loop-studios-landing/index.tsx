@@ -1,9 +1,13 @@
 import Header from './components/header';
+import VR_SECTION from './components/vr-section';
 
 // MOBILE FIRST APPROACH
 function LoopStudiosLandingPage() {
   return (
-    <Header />
+    <>
+      <Header />
+      <VR_SECTION />
+    </>
   );
 }
 
