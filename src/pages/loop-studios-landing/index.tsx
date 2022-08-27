@@ -1,7 +1,9 @@
-// MOBILE FIRST APPROCH
+import Header from './components/header';
+
+// MOBILE FIRST APPROACH
 function LoopStudiosLandingPage() {
   return (
-    <div>LoopStudiosLandingPage</div>
+    <Header />
   );
 }
 
