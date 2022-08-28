@@ -3,13 +3,30 @@ import Section from './section';
 
 function OurCreations() {
   return (
-    <Section sectionStyles="py-40 flex flex-col ">
-      <h2 className="uppercase text-3xl font-extralight mb-6 text-center xl:text-4xl ">our creations</h2>
-      <div className="flex flex-col gap-y-4 bg-red-100">
+    <Section sectionStyles="py-40 flex flex-col">
+      <div className="flex items-start justify-between mb-8">
 
+        <h2 className="uppercase text-3xl font-extralight mb-6 text-center
+                       xl:text-4xl"
+        >
+          our creations
+        </h2>
+
+        <button
+          className="hidden uppercase font-semibold border w-fit border-black py-2 px-8
+                     xl:block"
+          type="button"
+        >
+          see all
+        </button>
+      </div>
+
+      <div className="flex flex-col gap-y-4
+                      xl:grid xl:grid-cols-4 xl:gap-6"
+      >
         <Cards
           title="deep earth"
-          containerStyles="bg-loop-studio-deep-earth xl:bg-loop-studio-desktop"
+          containerStyles="bg-loop-studio-deep-earth xl:bg-loop-studio-deep-earth-desktop"
         />
 
         <Cards
@@ -49,7 +66,13 @@ function OurCreations() {
 
       </div>
 
-      <button className="uppercase font-semibold border w-fit mt-8 self-center border-black py-2 px-8" type="button">see all</button>
+      <button
+        className="uppercase font-semibold border w-fit mt-8 self-center border-black py-2 px-8
+                   xl:hidden"
+        type="button"
+      >
+        see all
+      </button>
     </Section>
   );
 }
