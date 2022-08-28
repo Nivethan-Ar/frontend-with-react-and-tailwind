@@ -8,7 +8,9 @@ interface Props {
 function Section(props: Props) {
   const { children, sectionStyles } = props;
   return (
-    <div className={`px-6 ${sectionStyles}`}>
+    <div className={`px-6 font-['josefin_sans'] xl:px-40
+                    ${sectionStyles}`}
+    >
       {children}
     </div>
   );

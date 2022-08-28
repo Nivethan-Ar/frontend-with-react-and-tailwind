@@ -3,7 +3,7 @@ import HamburgerIcon from '../assets/images/icon-hamburger.svg';
 function Header() {
   return (
     <header
-      className="h-screen font-['Alata'] text-white pt-10 px-6 bg-loop-studio-hero bg-cover xl:bg-loop-studio-hero-desktop xl:px-32 xl:bg-black/60 xl:bg-blend-overlay"
+      className="h-screen font-['Alata'] text-white pt-10 px-6 bg-loop-studio-hero bg-cover xl:bg-loop-studio-hero-desktop xl:px-40 xl:bg-black/60 xl:bg-blend-overlay"
     >
       <div className="flex justify-between items-center">
         <h1 className="font-semibold text-2xl xl:text-4xl">loopstudios</h1>
