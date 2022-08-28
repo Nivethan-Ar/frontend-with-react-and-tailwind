@@ -1,3 +1,4 @@
+import Footer from './components/footer';
 import Header from './components/header';
 import OurCreations from './components/our-creations';
 import VR_SECTION from './components/vr-section';
@@ -9,6 +10,7 @@ function LoopStudiosLandingPage() {
       <Header />
       <VR_SECTION />
       <OurCreations />
+      <Footer />
     </>
   );
 }

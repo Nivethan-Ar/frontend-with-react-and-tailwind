@@ -3,8 +3,8 @@ import Section from './section';
 
 function OurCreations() {
   return (
-    <Section sectionStyles="py-40 flex flex-col">
-      <div className="flex items-start justify-between mb-8">
+    <Section sectionStyles="pb-20 flex flex-col">
+      <div className="xl:flex xl:items-start xl:justify-between xl:mb-8">
 
         <h2 className="uppercase text-3xl font-extralight mb-6 text-center
                        xl:text-4xl"
