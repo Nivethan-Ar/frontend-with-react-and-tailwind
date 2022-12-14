@@ -27,7 +27,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "preinstall": "npx only allow pnpm",
     "dev": "env-cmd -f .env.development react-scripts start",
     "start": "react-scripts start",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
