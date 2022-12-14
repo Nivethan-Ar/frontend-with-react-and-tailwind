@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <Routes>
-      <Route path="1" element={<LoopStudiosLandingPage />} />
+      <Route index element={<LoopStudiosLandingPage />} />
     </Routes>
   );
 }
